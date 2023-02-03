@@ -33,7 +33,7 @@
 ** Progress Bars
 ** Collapse
    ================================== */
-   
+
 /* ==================================
    Basic
    ================================== */
@@ -407,7 +407,7 @@ figure {
 }
 .navbar-default .dropdown-menu > li > a {
   padding: 6px 20px;
-  
+
 }
 .navbar-default .dropdown-menu > li > a:hover {
   background: none;
@@ -472,7 +472,7 @@ figure {
   display: block;
 }
 /* ==================================
-   Header                   
+   Header
    ================================== */
 .header {
   position: relative;
@@ -599,7 +599,7 @@ figure {
   font-size: 18px;
 }
 /* ==================================
-   Features                   
+   Features
    ================================== */
 .features {
   width: 100%;
@@ -661,7 +661,7 @@ figure {
   font-size: 14px;
 }
 /* ==================================
-   Portfolio                  
+   Portfolio
    ================================== */
 .portfolio-home{
   background-image: url(../img/backgrounds/portfolio-1.jpg);
@@ -831,7 +831,7 @@ figure {
 @media (max-width: 993px) {
 .portfolio-title.pull-left, .toolbar.pull-right{
   float: none !important;
-  text-align: center;  
+  text-align: center;
 }
 
 }
@@ -1026,7 +1026,7 @@ figure {
   }
 }
 /* ==================================
-   Services                   
+   Services
    ================================== */
 .services {
   position: relative;
@@ -1072,7 +1072,7 @@ figure {
   transition: opacity 0.35s, transform 0.35s;
 }
 /* ==================================
-   Counters                   
+   Counters
    ================================== */
 .counters {
   position: relative;
@@ -1289,7 +1289,7 @@ figure {
   color: #838379;
 }
 /* ==================================
-   Skills                   
+   Skills
    ================================== */
 .skills {
   position: relative;
@@ -1678,7 +1678,7 @@ figure {
   color: #b9cadc;
 }
 /* ==================================
-   Pricing                   
+   Pricing
    ================================== */
 .pricing {
   width: 100%;
@@ -1890,7 +1890,7 @@ figure {
   }
 }
 /* ==================================
-   Another /Buttons, Helper Classes.../ 
+   Another /Buttons, Helper Classes.../
    ================================== */
 /* ==================================
    Buttons
@@ -2463,7 +2463,7 @@ fieldset[disabled] .btn-link:focus {
   -webkit-filter: none;
 }
 /* ==================================
-   Recent Post 
+   Recent Post
    ================================== */
 
 .sidebar-post-tab {
@@ -2584,7 +2584,7 @@ th{
 }
 
 .img{
-  
+
 width: 100%
 height:100%;
 }
@@ -2610,7 +2610,7 @@ img{
   max-width: 100% ! important;
   font-size: 4vw ! important;
   line-height: 5vw ! important;
-  
+
   /*white-space: pre ! important;*/
 }
 #slide-1699-layer-1 a{
@@ -2627,3 +2627,6 @@ ul li.dropdown:hover{
   color: #ffd357;
 }
 
+.row::before, .row::after {
+  display:inline;
+}
